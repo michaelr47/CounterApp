@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body {
+    background-color: #424978;
+    text-align: center;
+    font-size: 50px;
+   
+}
+button {
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin: 0 20px;
+    font-size: 30px;
+    background-color: #dab88b;
+    cursor: pointer;
+}
+#number-counter {
+    margin: 15px 0;
+    color: lightgray;
+    
+}
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px 0;
+    
+}
+.btn-cont {
+    margin: 50px 0;
+    font-size: 2rem
+}
+.btn-red:hover {
+    box-shadow: 0 0 5px 2px #ff2222;
+}
+.btn-green:hover {
+    box-shadow: 0 0 5px 2px #72f472;
+}
